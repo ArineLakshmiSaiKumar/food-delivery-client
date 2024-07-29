@@ -5,6 +5,7 @@ import { useCart } from './ContextReducer';
 import Cart from '../screens/Cart';
 import Modal from '../Modal';
 import MyOrder from '../screens/MyOrder';
+
 export default function Navbar() {
   let navigate = useNavigate();
   const [cartView, setCartView] = useState(false)
@@ -22,7 +23,7 @@ export default function Navbar() {
         
 <nav className="navbar navbar-expand-lg navbar-dark bg-success">
   <div className='container-fluid'>
-  <Link className="navbar-brand fs-1 fst-italic" to='/'>FoodReady</Link>
+  <Link className="navbar-brand fs-1 fst-italic" to='/'>Hotel-xyz</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
